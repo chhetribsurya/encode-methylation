@@ -3,7 +3,7 @@ import scipy.stats
 import json
 import time
 
-#Start time:
+
 start_time = time.time()
 
 ####Input files for script to run are attached in the dir input_file_for script:
@@ -33,7 +33,6 @@ TF_list = []
 header = ["chrom", "start", "end", "chromHMM_state", "cell_line"]
 head_print = "\t".join(header)
 
-#parse the chromHMMM
 def parse_chromHMM(chromHMM_file, Json_output_file):
 	with open(chromHMM_file,"r") as file:
 		with open(JSON_dict_file, 'w') as outfile:
