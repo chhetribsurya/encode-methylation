@@ -1,1 +1,1 @@
-# Methylation and DMR's
+# Global Methylation and DMR's
